@@ -23,17 +23,11 @@ Hiring platforms often rely on keyword matching, which fails to capture skill di
 
 **High-level pipeline:**
 
-1. **Data ingestion**
-   - Job postings and resumes are parsed to extract skills, locations, and metadata
-2. **Knowledge graph construction**
-   - Entities and relationships are stored in Neo4j
-3. **Metric computation**
-   - Rasch model → skill difficulty, candidate ability, job difficulty
-   - TransR → relational graph embeddings
-4. **Recommendation engine**
-   - Composite scoring using coverage, Rasch, and TransR
-5. **Streamlit UI**
-   - Interactive candidate and recruiter experiences
+1. **Data ingestion**: Job postings and resumes are parsed to extract skills, locations, and metadata
+2. **Knowledge graph construction**: Entities and relationships are stored in Neo4j
+3. **Metric computation**: Rasch model -> skill difficulty, candidate ability, job difficulty. TransR -> relational graph embeddings
+4. **Recommendation engine**: Composite scoring using coverage, Rasch, and TransR
+5. **Streamlit UI**: Interactive candidate and recruiter experiences
 
 ## Core Algorithms & Models
 
