@@ -1,0 +1,8 @@
+streamlit
+neo4j
+pandas
+pypdf
+openai
+python-dotenv
+ollama
+google-generativeai
