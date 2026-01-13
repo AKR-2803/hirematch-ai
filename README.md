@@ -4,6 +4,59 @@ Streamlit UI for ranking jobs <=> candidates over a Neo4j knowledge graph using 
 
 This project is also referred to as **HireMatch AI**, highlighting its role as a two-way conversational job–candidate matching assistant built on knowledge graphs and statistical learning models.
 
+## System Architecture
+
+<kbd><img src="./demo-ss/sys-arch.png" height="400" alt="Screenshot"/></kbd>
+
+## User Interface
+
+### Candidate View
+
+- Upload resume (PDF/TXT)
+<kbd>
+   <img src="./demo-ss/cand-ui-01.png" height="400" alt="cand-ui-01.png"/>
+</kbd>
+
+- Link resume to candidate node
+<kbd>
+   <img src="./demo-ss/cand-ui-02.png" height="400" alt="cand-ui-02.png"/>
+</kbd>
+
+- View top-K job recommendations
+<kbd>
+   <img src="./demo-ss/cand-ui-03.png" height="400" alt="cand-ui-03.png"/>
+</kbd>
+
+- Identify missing skills for target jobs
+<kbd>
+   <img src="./demo-ss/cand-ui-04.png" height="400" alt="cand-ui-04.png"/>
+</kbd>
+
+- Optional AI explanations and coaching tips
+<kbd>
+   <img src="./demo-ss/cand-ui-05.png" height="400" alt="cand-ui-05.png"/>
+</kbd>
+
+### Employer View
+
+- Search and select job postings
+<kbd>
+   <img src="./demo-ss/rec-ui-01.png" height="400" alt="rec-ui-01.png"/>
+</kbd>
+
+
+- Rank best-fit candidates
+<kbd>
+   <img src="./demo-ss/rec-ui-02.png" height="400" alt="rec-ui-02.png"/>
+</kbd>
+
+- Recruiter-friendly AI summaries
+<kbd>
+   <img src="./demo-ss/rec-ui-03.png" height="400" alt="rec-ui-03.png"/>
+</kbd>
+
+
+
 ## DATASET in Drive
 https://drive.google.com/drive/folders/1cZb0mlXbhNcTOQklmxNYmzxMt7WGBtkr?usp=sharing
 
@@ -17,9 +70,6 @@ Hiring platforms often rely on keyword matching, which fails to capture skill di
 - Provide **interpretable and explainable rankings** for recruiters and candidates
 - Support optional **LLM-based explanations and coaching**
 
-## System Architecture
-
-<kbd><img src="./demo-ss/sys-arch.png" height="400" alt="Screenshot"/></kbd>
 
 **High-level pipeline:**
 
@@ -104,55 +154,6 @@ These results indicate strong ranking quality and effective blending of Rasch, T
 
 <kbd>
    <img src="./demo-ss/eval-metrics.png" height="400" alt="eval-metrics.png"/>
-</kbd>
-
-## User Interface
-
-### Candidate View
-
-- Upload resume (PDF/TXT)
-- Link resume to candidate node
-- View top-K job recommendations
-- Identify missing skills for target jobs
-- Optional AI explanations and coaching tips
-
-<kbd>
-   <img src="./demo-ss/cand-ui-01.png" height="400" alt="cand-ui-01.png"/>
-</kbd>
-
-<kbd>
-   <img src="./demo-ss/cand-ui-02.png" height="400" alt="cand-ui-02.png"/>
-</kbd>
-
-<kbd>
-   <img src="./demo-ss/cand-ui-03.png" height="400" alt="cand-ui-03.png"/>
-</kbd>
-
-<kbd>
-   <img src="./demo-ss/cand-ui-04.png" height="400" alt="cand-ui-04.png"/>
-</kbd>
-
-<kbd>
-   <img src="./demo-ss/cand-ui-05.png" height="400" alt="cand-ui-05.png"/>
-</kbd>
-
-### Employer View
-
-- Search and select job postings
-- Rank best-fit candidates
-- Inspect skill alignment and difficulty
-- Optional recruiter-friendly AI summaries
-
-<kbd>
-   <img src="./demo-ss/rec-ui-01.png" height="400" alt="rec-ui-01.png"/>
-</kbd>
-
-<kbd>
-   <img src="./demo-ss/rec-ui-02.png" height="400" alt="rec-ui-02.png"/>
-</kbd>
-
-<kbd>
-   <img src="./demo-ss/rec-ui-03.png" height="400" alt="rec-ui-03.png"/>
 </kbd>
 
 ## Quick Start
